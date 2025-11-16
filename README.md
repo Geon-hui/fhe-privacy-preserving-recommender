@@ -113,6 +113,5 @@ MIT License
 
 ## 저자
 
-[Your Name] - [University Name]
-
+2019111986 김건희 
 동형암호(FHE) 활용 개별연구 프로젝트
