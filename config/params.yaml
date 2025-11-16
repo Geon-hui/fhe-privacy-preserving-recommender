@@ -1,0 +1,24 @@
+# CKKS Parameters
+seal:
+  scheme: CKKS
+  poly_modulus_degree: 8192
+  coeff_mod_bit_sizes: [60, 40, 40, 60]  # 총 200비트 (8192에 적합)
+  scale_bits: 40
+
+# Dataset
+dataset:
+  name: movielens-1m
+  path: data/raw/ml-1m
+  min_rating: 3.0
+  vector_dim: 512
+
+# Recommendation
+recommendation:
+  threshold: 0.7
+  top_k: 10
+  similarity_metric: cosine
+
+# Performance
+performance:
+  batch_size: 8
+  num_threads: 4
