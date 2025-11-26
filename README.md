@@ -35,7 +35,6 @@ fhe-recommender/
 ├── logs/ # 로그
 └── notebooks/ # Jupyter 노트북
 
-text
 
 ## 설치 및 실행
 
